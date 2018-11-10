@@ -1,0 +1,44 @@
+
+
+#container {
+  display: block;
+  padding: auto;
+}
+
+img {
+  align-items: center;
+  max-width: 100%;
+}
+
+
+  h1 {
+    color: #2E2E2E;
+    font-family: 'Lucida-Bright', 'Georgia', serif;
+  }
+
+  body {
+    max-width: 600px;
+    background: #fff;
+    color: #2E2E2E;
+    font-family: 'Candara', 'Tahoma', sans-serif;
+    margin-top:auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+  }
+
+button {
+  display: inline;
+  margin: 1rem;
+}
+
+
+  @media screen and (max-width: 600px) {
+      #container {
+        width: 100%;
+      }
+
+      body {
+        margin: 1rem;
+
+      }
